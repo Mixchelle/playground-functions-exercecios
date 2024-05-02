@@ -19,14 +19,9 @@ function triangleCheck(lineA, lineB, lineC) {
   return isValid(lineA, lineB, lineC);
 }
 // Desafio 13
-function hydrate(bebidasString) {
-  const numeros = bebidasString.match(/\d+/g);
-  if (!numeros) {
-    return 'Formato inválido. Use números seguidos do tipo de bebida.';
-  }
-
-  const totalCopos = numeros.reduce((soma, num) => soma + parseInt(num, 10), 0);
-  return `${totalCopos} copo${totalCopos === 1 ? '' : 's'} de água`;
+function hydrate() {
+  
+  // seu código aqui
 }
 
 module.exports = {

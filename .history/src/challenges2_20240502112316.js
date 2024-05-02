@@ -20,7 +20,7 @@ function triangleCheck(lineA, lineB, lineC) {
 }
 // Desafio 13
 function hydrate(bebidasString) {
-  const numeros = bebidasString.match(/\d+/g);
+  const numeros = bebidasString.match(/\d+/g); // Extrai os números da string
   if (!numeros) {
     return 'Formato inválido. Use números seguidos do tipo de bebida.';
   }

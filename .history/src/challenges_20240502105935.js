@@ -72,8 +72,11 @@ function decode(str) {
 // Desafio 10
 function techList(data, nome) {
   if (data.length === 0) return 'Vazio!';
-  const dataSort = data.sort((a, b) => a.localeCompare(b));
-  return dataSort.map((item) => ({ tech: item, name: nome }));
+  return data.map((iten, i) => ({ { tech: iten,
+      name: nome };
+    return result;
+  });
+  // seu código aqui
 }
 
 module.exports = {
